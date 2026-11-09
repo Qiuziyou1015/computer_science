@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D2D7E1;
+    line-height: 1.8;
+    color: #333;
+}
+
+header {
+    background-color: #1D2D44;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    background-color: #3E5C76;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.card {
+    padding: 15px;
+    margin: 10px auto;
+    background-color: #C9DCE8;
+    border-radius: 12px;
+}
+
+section {
+    max-width: 900px;
+    text-align: center;
+    background-color: #85ACC5;
+    padding: 30px;
+    border-radius: 12px;
+    margin: 30px auto;
+}
+
+h2 {
+    color: #234337;
+    margin-bottom: 20px;
+}
+
+.title {
+    border-bottom: 1px solid #2b4532;
+    padding-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.data-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.data-card {
+    flex: 1;
+    background-color: #C9DCE8;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.data-card h3 {
+    color: #1D2D44;
+    font-size: 15px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #E1E8F0;
+    padding-bottom: 5px;
+}
+
+.data-card p {
+    color: #2D3748;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.data-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+}
+
+.evolution-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;                     
+    background-color: transparent; 
+    padding: 20px;
+    border-radius: 0;              
+    max-width: 500px;
+    margin: 10px auto;
+    box-shadow: none;              
+}
+
+.evo-stage {
+    text-align: center;
+}
+
+.evo-stage img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.evo-stage p {
+    font-weight: bold;
+    color: #1D2D44;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.evo-arrow {
+    text-align: center;
+    color: #3E5C76;
+}
+
+.evo-arrow span {
+    font-size: 32px;
+    display: block;
+    line-height: 1;
+}
+
+.evo-arrow p {
+    font-size: 12px;
+    color: #666;
+    margin-top: 2px;
+    white-space: nowrap;
+}
+
+.pokemon-card {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  background-color: #f4f6f8;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+  font-family: sans-serif;
+}
+
+.pokemon-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: #e2eeff; 
+}
+
+.pokemon-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+  border: 4px solid #fff;
+}
+
+.pokemon-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.click-hint {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #007bff;
+}
+
+.pokemon-card:hover .click-hint {
+  text-decoration: underline; 
+}
+.home-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.home-btn:hover {
+  background-color: #0056b3;
+}
+
+.home-btn:active {
+  transform: scale(0.95);
+}
+
+
+button {
+  text-align: center;
+}
+
+.button-73 {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-73:hover {
+  background-color: #FFC229;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button-73:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-73 {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
+
+table {
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid #1D2D44;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+    color: #1D2D44;
+}
+
+table th,
+table td {
+    border: 1px solid #1D2D44;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #3E5C76;
+    color: #FFFFFF;
+}
