@@ -11,19 +11,49 @@ body{
 }
 
 header{
-    background-color: #3A5A80;
+    background-color: #1D2D44;
     text-align: center;
     color: white;
 }
 
 nav{
-    background-color: #ADB6CF;
+    background-color: #3E5C76;
     padding: 12px;
     text-align: center;
 }
 
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover{
+    color: yellow;
+}
+
 section{
+    max-width: 900px;
     text-align: center;
     background-color: #85ACC5;
-    padding: auto;
+    padding: 30px;
+    
+    border-radius: 12px;
+    margin: 30px auto;
+}
+
+h2{
+    color: #234337;
+}
+
+.card{
+    padding: 15px;
+    margin: 10px auto;
+    background-color: #C9DCE8;
+    border-radius: 12px;
+
+}
+
+html{
+    scroll-behavior: smooth;
 }
